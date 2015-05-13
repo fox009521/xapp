@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.IO;
+using System.Threading;
+using Zelo.Common.CustomAttributes;
+
+namespace Zelo.DBModel
+{
+    [Table(Name = "T_Medical_HisDetail")]
+    public class TMedicHisDetailInfo:TMedicalHisDetail
+    {
+        public List<TMedicalHisDetailPic> PicList
+        {
+            set;
+            get;
+        }
+    }
+}

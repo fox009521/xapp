@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Common/DBUtility
+END
+DbFactory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Common/DBUtility/DbFactory.cs
+END
+AdoHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Common/DBUtility/AdoHelper.cs
+END
+DbHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Common/DBUtility/DbHelper.cs
+END
+DatabaseType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Common/DBUtility/DatabaseType.cs
+END
+DbOperateType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Common/DBUtility/DbOperateType.cs
+END
+DbTypeConvert.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Common/DBUtility/DbTypeConvert.cs
+END
+SecurityUtils.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Common/DBUtility/SecurityUtils.cs
+END

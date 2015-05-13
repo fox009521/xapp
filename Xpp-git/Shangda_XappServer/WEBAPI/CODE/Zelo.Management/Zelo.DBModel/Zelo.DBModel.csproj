@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B0517A01-4F2D-4035-9939-44651E298B79}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Zelo.DBModel</RootNamespace>
+    <AssemblyName>Zelo.DBModel</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GlobalEnumClass.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TAppUpgradeInfo.cs" />
+    <Compile Include="Tchannel.cs" />
+    <Compile Include="TCity.cs" />
+    <Compile Include="Tconf.cs" />
+    <Compile Include="Tconfinfo.cs" />
+    <Compile Include="TDoctor.cs" />
+    <Compile Include="Tfav.cs" />
+    <Compile Include="Tfeedback.cs" />
+    <Compile Include="THospital.cs" />
+    <Compile Include="TMedicalHis.cs" />
+    <Compile Include="TMedicalHisDetail.cs" />
+    <Compile Include="TMedicalHisDetailPic.cs" />
+    <Compile Include="TMedicalHisExtend.cs" />
+    <Compile Include="TMedicHisDetailInfo.cs" />
+    <Compile Include="Tnotice.cs" />
+    <Compile Include="TPatient.cs" />
+    <Compile Include="Tpost.cs" />
+    <Compile Include="TProvince.cs" />
+    <Compile Include="Trdpatient.cs" />
+    <Compile Include="Trecord.cs" />
+    <Compile Include="Treply.cs" />
+    <Compile Include="Trespic.cs" />
+    <Compile Include="Tresvid.cs" />
+    <Compile Include="TSmsValid.cs" />
+    <Compile Include="Ttextbook.cs" />
+    <Compile Include="Ttopic.cs" />
+    <Compile Include="Tuser.cs" />
+    <Compile Include="Tuserinfo.cs" />
+    <Compile Include="TUserToken.cs" />
+    <Compile Include="Tvalidtmp.cs" />
+    <Compile Include="User.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Zelo.Common\Zelo.Common.csproj">
+      <Project>{750f6727-ef14-4070-b07d-c84989fd2953}</Project>
+      <Name>Zelo.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

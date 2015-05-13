@@ -1,0 +1,14 @@
+E:\NT_object\XAPP_Server\XAPPServer\ChatLibrary\bin\Debug\ChatLibrary.dll
+E:\NT_object\XAPP_Server\XAPPServer\ChatLibrary\bin\Debug\ChatLibrary.pdb
+E:\NT_object\XAPP_Server\XAPPServer\ChatLibrary\bin\Debug\RestSharp.dll
+E:\NT_object\XAPP_Server\XAPPServer\ChatLibrary\bin\Debug\RestSharp.xml
+E:\NT_object\XAPP_Server\XAPPServer\ChatLibrary\obj\Debug\ChatLibrary.csprojResolveAssemblyReference.cache
+E:\NT_object\XAPP_Server\XAPPServer\ChatLibrary\obj\Debug\ChatLibrary.dll
+E:\NT_object\XAPP_Server\XAPPServer\ChatLibrary\obj\Debug\ChatLibrary.pdb
+D:\XApp\XAPPServer\ChatLibrary\bin\Debug\ChatLibrary.dll
+D:\XApp\XAPPServer\ChatLibrary\bin\Debug\ChatLibrary.pdb
+D:\XApp\XAPPServer\ChatLibrary\bin\Debug\RestSharp.dll
+D:\XApp\XAPPServer\ChatLibrary\bin\Debug\RestSharp.xml
+D:\XApp\XAPPServer\ChatLibrary\obj\Debug\ChatLibrary.csprojResolveAssemblyReference.cache
+D:\XApp\XAPPServer\ChatLibrary\obj\Debug\ChatLibrary.dll
+D:\XApp\XAPPServer\ChatLibrary\obj\Debug\ChatLibrary.pdb

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Management/AppUtils
+END
+RegUtils.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Management/AppUtils/RegUtils.cs
+END
+LogUtils.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Management/AppUtils/LogUtils.cs
+END
+SmsUtils.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Management/AppUtils/SmsUtils.cs
+END
+ControllerUtils.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Management/AppUtils/ControllerUtils.cs
+END
+ConfigUtils.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Management/AppUtils/ConfigUtils.cs
+END
+ObjectUtils.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Management/AppUtils/ObjectUtils.cs
+END

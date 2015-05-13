@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.DBService
+END
+BaseService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.DBService/BaseService.cs
+END
+DoctorService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.DBService/DoctorService.cs
+END
+ServiceResult.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.DBService/ServiceResult.cs
+END
+TokenService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.DBService/TokenService.cs
+END
+SmsValidService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.DBService/SmsValidService.cs
+END
+MedicalHisService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Shangda_XappServer/!svn/ver/17/WEBAPI/CODE/Zelo.Management/Zelo.DBService/MedicalHisService.cs
+END
+UtilityService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.DBService/UtilityService.cs
+END
+PatientService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.DBService/PatientService.cs
+END
+SystemService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Shangda_XappServer/!svn/ver/18/WEBAPI/CODE/Zelo.Management/Zelo.DBService/SystemService.cs
+END
+MedicalHisDetailService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Shangda_XappServer/!svn/ver/17/WEBAPI/CODE/Zelo.Management/Zelo.DBService/MedicalHisDetailService.cs
+END
+SecurityService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.DBService/SecurityService.cs
+END
+ServiceFactory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.DBService/ServiceFactory.cs
+END
+Zelo.DBService.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.DBService/Zelo.DBService.csproj
+END

@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Common/Common
+END
+PageResult.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Common/Common/PageResult.cs
+END
+EntityHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Common/Common/EntityHelper.cs
+END
+DbKeywords.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Common/Common/DbKeywords.cs
+END
+Map.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Common/Common/Map.cs
+END
+ReflectionHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Common/Common/ReflectionHelper.cs
+END
+DbCondition.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Common/Common/DbCondition.cs
+END
+ParamMap.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Common/Common/ParamMap.cs
+END
+ImageSave.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Shangda_XappServer/!svn/ver/14/WEBAPI/CODE/Zelo.Management/Zelo.Common/Common/ImageSave.cs
+END
+TypeUtils.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Common/Common/TypeUtils.cs
+END
+DbEntityUtils.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Common/Common/DbEntityUtils.cs
+END
+DynamicCalls.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Common/Common/DynamicCalls.cs
+END
+TableInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Common/Common/TableInfo.cs
+END
+SQLBuilderHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Common/Common/SQLBuilderHelper.cs
+END
+IdInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Common/Common/IdInfo.cs
+END
+ColumnInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Common/Common/ColumnInfo.cs
+END
+CommonUtils.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Common/Common/CommonUtils.cs
+END

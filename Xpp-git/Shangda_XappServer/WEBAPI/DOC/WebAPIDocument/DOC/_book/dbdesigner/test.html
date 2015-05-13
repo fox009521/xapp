@@ -1,0 +1,1515 @@
+<!DOCTYPE HTML>
+<html lang="en-US" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>T_Medical_His病历夹表 | Web API 开发接口文档</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 1.0.3">
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    
+    
+    
+    <link rel="next" href="../dbdesigner/t_medical_hisdetail.html" />
+    
+    
+    <link rel="prev" href="../dbdesigner/t_meeting_focus.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+<link rel="stylesheet" href="../gitbook/style.css">
+
+
+        
+    <div class="book"  data-level="7.21" data-basepath=".." data-revision="1431155358001">
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+    	
+    	
+    	
+
+        
+
+        
+    
+        
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                        <i class="fa fa-check"></i>
+                        
+                         前言
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1" data-path="commandregular/README.html">
+            
+                
+                    <a href="../commandregular/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                         基本说明
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2" data-path="baseinfo/README.html">
+            
+                
+                    <a href="../baseinfo/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                         基础信息接口
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="2.1" data-path="baseinfo/hospitalinterface.html">
+            
+                
+                    <a href="../baseinfo/hospitalinterface.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                         医院接口
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.2" data-path="baseinfo/geointerface.html">
+            
+                
+                    <a href="../baseinfo/geointerface.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                         地理信息接口
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3" data-path="doctorinterface/README.html">
+            
+                
+                    <a href="../doctorinterface/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                         医生接口
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="3.1" data-path="doctorinterface/login.html">
+            
+                
+                    <a href="../doctorinterface/login.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                         医生登陆
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.2" data-path="doctorinterface/sendvalidsms.html">
+            
+                
+                    <a href="../doctorinterface/sendvalidsms.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                         发送短信验证
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.3" data-path="doctorinterface/usersignup.html">
+            
+                
+                    <a href="../doctorinterface/usersignup.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                         医生注册
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.4" data-path="doctorinterface/getdocotorinfo.html">
+            
+                
+                    <a href="../doctorinterface/getdocotorinfo.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.</b>
+                        
+                         医生信息查询
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.5" data-path="doctorinterface/doctorinfoupdate.html">
+            
+                
+                    <a href="../doctorinterface/doctorinfoupdate.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.</b>
+                        
+                         医生信息更新
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.6" data-path="doctorinterface/avatarupdate.html">
+            
+                
+                    <a href="../doctorinterface/avatarupdate.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.6.</b>
+                        
+                         医生头像更新
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.7" data-path="doctorinterface/toreport.html">
+            
+                
+                    <a href="../doctorinterface/toreport.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.7.</b>
+                        
+                         向我报到列表
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.8" data-path="doctorinterface/reportapproval.html">
+            
+                
+                    <a href="../doctorinterface/reportapproval.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.8.</b>
+                        
+                         审批患者报到
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.9" data-path="doctorinterface/mypatients.html">
+            
+                
+                    <a href="../doctorinterface/mypatients.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.9.</b>
+                        
+                         我的患者列表
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.10" data-path="doctorinterface/todeleteteam.html">
+            
+                
+                    <a href="../doctorinterface/todeleteteam.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.10.</b>
+                        
+                         删除我的团队
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.11" data-path="doctorinterface/editmypatients.html">
+            
+                
+                    <a href="../doctorinterface/editmypatients.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.11.</b>
+                        
+                         修改我的患者信息
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.12" data-path="doctorinterface/test.html">
+            
+                
+                    <a href="../doctorinterface/test.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.12.</b>
+                        
+                         测试
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4" data-path="commandregular/medicalhis.html">
+            
+                
+                    <a href="../commandregular/medicalhis.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                         病历夹接口
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="4.1" data-path="file_name_should_be_unique.html">
+            
+                
+                    <a href="../file_name_should_be_unique.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                         病历夹查询
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4.2" data-path="commandregular/add.html">
+            
+                
+                    <a href="../commandregular/add.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                         新增病历夹
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4.3" data-path="commandregular/update.html">
+            
+                
+                    <a href="../commandregular/update.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.3.</b>
+                        
+                         更新病历夹
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4.4" data-path="commandregular/delete.html">
+            
+                
+                    <a href="../commandregular/delete.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.4.</b>
+                        
+                         删除病历夹
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4.5" data-path="commandregular/detail.html">
+            
+                
+                    <a href="../commandregular/detail.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.5.</b>
+                        
+                         病历查询
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4.6" data-path="commandregular/detailadd.html">
+            
+                
+                    <a href="../commandregular/detailadd.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.</b>
+                        
+                         病历新增
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4.7" data-path="commandregular/updatedetail.html">
+            
+                
+                    <a href="../commandregular/updatedetail.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.7.</b>
+                        
+                         病历修改
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4.8" data-path="commandregular/deleteinfo.html">
+            
+                
+                    <a href="../commandregular/deleteinfo.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.8.</b>
+                        
+                         病历删除
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5" data-path="doctorinterface/test.html">
+            
+                
+                    <a href="../doctorinterface/test.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                         频道接口
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="5.1" data-path="doctorinterface/test.html">
+            
+                
+                    <a href="../doctorinterface/test.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.</b>
+                        
+                         频道查询
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5.2" data-path="doctorinterface/channeladd.html">
+            
+                
+                    <a href="../doctorinterface/channeladd.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.</b>
+                        
+                         频道新增
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5.3" data-path="doctorinterface/channelupdate.html">
+            
+                
+                    <a href="../doctorinterface/channelupdate.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.</b>
+                        
+                         频道更新
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5.4" data-path="doctorinterface/channeldelete.html">
+            
+                
+                    <a href="../doctorinterface/channeldelete.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.4.</b>
+                        
+                         频道删除
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5.5" data-path="doctorinterface/contentselect.html">
+            
+                
+                    <a href="../doctorinterface/contentselect.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.5.</b>
+                        
+                         频道内容查询
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5.6" data-path="doctorinterface/contentadd.html">
+            
+                
+                    <a href="../doctorinterface/contentadd.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.6.</b>
+                        
+                         频道内容新增
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5.7" data-path="doctorinterface/contentupdate.html">
+            
+                
+                    <a href="../doctorinterface/contentupdate.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.7.</b>
+                        
+                         频道内容更新
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5.8" data-path="doctorinterface/contentdelete.html">
+            
+                
+                    <a href="../doctorinterface/contentdelete.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.8.</b>
+                        
+                         频道内容删除
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5.9" data-path="doctorinterface/reply.html">
+            
+                
+                    <a href="../doctorinterface/reply.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.9.</b>
+                        
+                         内容回复新增
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5.10" data-path="doctorinterface/replydelete.html">
+            
+                
+                    <a href="../doctorinterface/replydelete.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.10.</b>
+                        
+                         内容回复删除
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5.11" data-path="doctorinterface/replyselect.html">
+            
+                
+                    <a href="../doctorinterface/replyselect.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.11.</b>
+                        
+                         内容回复查询
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5.12" data-path="doctorinterface/agree.html">
+            
+                
+                    <a href="../doctorinterface/agree.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.12.</b>
+                        
+                         点赞
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="6" data-path="systemdesginer/README.html">
+            
+                
+                    <a href="../systemdesginer/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                         系统接口
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="6.1" data-path="systemdesginer/appupgradeinteface.html">
+            
+                
+                    <a href="../systemdesginer/appupgradeinteface.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.1.</b>
+                        
+                         应用升级
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="7" data-path="dbdesigner/README.html">
+            
+                
+                    <a href="../dbdesigner/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.</b>
+                        
+                         数据库设计
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="7.1" data-path="dbdesigner/t_doctor.html">
+            
+                
+                    <a href="../dbdesigner/t_doctor.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.1.</b>
+                        
+                         T_Doctor医生信息表
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="7.2" data-path="dbdesigner/t_docotorteam.html">
+            
+                
+                    <a href="../dbdesigner/t_docotorteam.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.2.</b>
+                        
+                         T_DoctorTeam团队表
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="7.3" data-path="dbdesigner/t_doctorteamapply.html">
+            
+                
+                    <a href="../dbdesigner/t_doctorteamapply.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.3.</b>
+                        
+                         T_DoctorTeamApply团队申请验证表
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="7.4" data-path="dbdesigner/t_doctorteammember.html">
+            
+                
+                    <a href="../dbdesigner/t_doctorteammember.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.4.</b>
+                        
+                         T_DoctorTeamMember团队成员表
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="7.5" data-path="dbdesigner/t_patient.html">
+            
+                
+                    <a href="../dbdesigner/t_patient.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.5.</b>
+                        
+                         T_Patient患者表
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="7.6" data-path="dbdesigner/t_usertoken.html">
+            
+                
+                    <a href="../dbdesigner/t_usertoken.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.6.</b>
+                        
+                         T_UserToken登陆令牌表
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="7.7" data-path="dbdesigner/t_smsvalid.html">
+            
+                
+                    <a href="../dbdesigner/t_smsvalid.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.7.</b>
+                        
+                         T_SmsValid短信验证表
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="7.8" data-path="dbdesigner/t_hospital.html">
+            
+                
+                    <a href="../dbdesigner/t_hospital.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.8.</b>
+                        
+                         T_Hospital医院表
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="7.9" data-path="dbdesigner/t_city.html">
+            
+                
+                    <a href="../dbdesigner/t_city.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.9.</b>
+                        
+                         T_City城市信息表
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="7.10" data-path="dbdesigner/t_province.html">
+            
+                
+                    <a href="../dbdesigner/t_province.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.10.</b>
+                        
+                         T_Province省信息表
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="7.11" data-path="dbdesigner/t_appupgradeinfo.html">
+            
+                
+                    <a href="../dbdesigner/t_appupgradeinfo.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.11.</b>
+                        
+                         T_AppUpgradeInfo应用升级表
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="7.12" data-path="dbdesigner/t_report.html">
+            
+                
+                    <a href="../dbdesigner/t_report.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.12.</b>
+                        
+                         T_Report患者报道表
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="7.13" data-path="dbdesigner/t_medicalmember.html">
+            
+                
+                    <a href="../dbdesigner/t_medicalmember.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.13.</b>
+                        
+                         T_MedicalMember医患关系表
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="7.14" data-path="dbdesigner/t_template.html">
+            
+                
+                    <a href="../dbdesigner/t_template.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.14.</b>
+                        
+                         T_Template康复模版
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="7.15" data-path="dbdesigner/t_templatedetail.html">
+            
+                
+                    <a href="../dbdesigner/t_templatedetail.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.15.</b>
+                        
+                         T_TemplateDetail模版详表
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="7.16" data-path="dbdesigner/t_stage.html">
+            
+                
+                    <a href="../dbdesigner/t_stage.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.16.</b>
+                        
+                         T_Stage阶段表
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="7.17" data-path="dbdesigner/t_action.html">
+            
+                
+                    <a href="../dbdesigner/t_action.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.17.</b>
+                        
+                         T_Action动作表
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="7.18" data-path="dbdesigner/t_exercisesdata.html">
+            
+                
+                    <a href="../dbdesigner/t_exercisesdata.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.18.</b>
+                        
+                         T_ExercisesData患者锻炼数据表
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="7.19" data-path="dbdesigner/meeting.html">
+            
+                
+                    <a href="../dbdesigner/meeting.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.19.</b>
+                        
+                         T_Meeting学术活动
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="7.20" data-path="dbdesigner/t_meeting_focus.html">
+            
+                
+                    <a href="../dbdesigner/t_meeting_focus.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.20.</b>
+                        
+                         T_Meeting_Focus学术活动关注详情表
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter active" data-level="7.21" data-path="dbdesigner/test.html">
+            
+                
+                    <a href="../dbdesigner/test.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.21.</b>
+                        
+                         T_Medical_His病历夹表
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="7.22" data-path="dbdesigner/t_medical_hisdetail.html">
+            
+                
+                    <a href="../dbdesigner/t_medical_hisdetail.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.22.</b>
+                        
+                         T_Medical_HisDetail病历记录表
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="7.23" data-path="dbdesigner/t_medical_hisdetailpic.html">
+            
+                
+                    <a href="../dbdesigner/t_medical_hisdetailpic.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.23.</b>
+                        
+                         T_Medical_HisDetailPic病历详细图片表
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="7.24" data-path="dbdesigner/t_channel.html">
+            
+                
+                    <a href="../dbdesigner/t_channel.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.24.</b>
+                        
+                         频道相关表
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="7.24.1" data-path="dbdesigner/t_channel.html">
+            
+                
+                    <a href="../dbdesigner/t_channel.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.24.1.</b>
+                        
+                         T_Channel频道表
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="7.24.2" data-path="dbdesigner/t_channeluser.html">
+            
+                
+                    <a href="../dbdesigner/t_channeluser.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.24.2.</b>
+                        
+                         T_ChannelUser频道人员表
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="7.24.3" data-path="dbdesigner/t_channelcontent.html">
+            
+                
+                    <a href="../dbdesigner/t_channelcontent.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.24.3.</b>
+                        
+                         T_ChannelContent频道内容表
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="7.24.4" data-path="dbdesigner/t_channelreply.html">
+            
+                
+                    <a href="../dbdesigner/t_channelreply.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.24.4.</b>
+                        
+                         T_ChannelReply频道回复表
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="7.24.5" data-path="dbdesigner/t_channelagree.html">
+            
+                
+                    <a href="../dbdesigner/t_channelagree.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.24.5.</b>
+                        
+                         T_ChannelAgree点赞表
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="http://www.gitbook.io/" target="blank" class="gitbook-link">Published using GitBook</a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Toggle search"><i class="fa fa-search"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle font settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle share dropdown"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">Twitter</button>
+                <button type="button" data-sharing="google-plus" class="button">Google</button>
+                <button type="button" data-sharing="facebook" class="button">Facebook</button>
+                <button type="button" data-sharing="weibo" class="button">Weibo</button>
+                <button type="button" data-sharing="instapaper" class="button">Instapaper</button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Share on Google Plus"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Share on Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Share on Twitter"><i class="fa fa-twitter"></i></a>
+    
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >Web API 开发接口文档</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-gitbook_99">
+                    
+                        <h1 id="t_medical_his">T_Medical_His病历夹表</h1>
+<p><table cellspacing="0" cellpadding="5" border="1" width="100%" bordercolorlight="#D7D7E5" bordercolordark="#D3D8E0">
+         <tbody>
+          <tr bgcolor="#F0F0F0">
+           <td>序号</td>
+           <td>列名</td>
+           <td>数据类型</td>
+           <td>长度</td>
+           <td>小数位</td>
+           <td>标识</td>
+           <td>主键</td>
+           <td>外键</td>
+           <td>允许空</td>
+           <td>默认值</td>
+           <td>说明</td>
+          </tr>
+          <tr>
+           <td>1</td>
+           <td>id</td>
+           <td>int</td>
+           <td>4</td>
+           <td>0</td>
+           <td>是</td>
+           <td>&nbsp;</td>
+           <td>&nbsp;</td>
+           <td>否</td>
+           <td>&nbsp;</td>
+           <td align="left">病历夹ID</td>
+          </tr>
+          <tr>
+           <td>2</td>
+           <td>His_Gid</td>
+           <td>nvarchar</td>
+           <td>40</td>
+           <td>0</td>
+           <td>&nbsp;</td>
+           <td>&nbsp;</td>
+           <td>&nbsp;</td>
+           <td>是</td>
+           <td>newid</td>
+           <td align="left">病历夹标识</td>
+          </tr>
+          <tr>
+           <td>3</td>
+           <td>Doctor_ID</td>
+           <td>nvarchar</td>
+           <td>64</td>
+           <td>0</td>
+           <td>&nbsp;</td>
+           <td>&nbsp;</td>
+           <td>&nbsp;</td>
+           <td>否</td>
+           <td>&nbsp;</td>
+           <td align="left">医生ID</td>
+          </tr>
+          <tr>
+           <td>4</td>
+           <td>Patient_ID</td>
+           <td>nvarchar</td>
+           <td>64</td>
+           <td>0</td>
+           <td>&nbsp;</td>
+           <td>&nbsp;</td>
+           <td>&nbsp;</td>
+           <td>否</td>
+           <td>&nbsp;</td>
+           <td align="left">病人ID</td>
+          </tr>
+          <tr>
+           <td>5</td>
+           <td>Sickness</td>
+           <td>nvarchar</td>
+           <td>100</td>
+           <td>0</td>
+           <td>&nbsp;</td>
+           <td>&nbsp;</td>
+           <td>&nbsp;</td>
+           <td>否</td>
+           <td>&nbsp;</td>
+           <td align="left">所患疾病</td>
+          </tr>
+          <tr>
+           <td>6</td>
+           <td>CreateTime</td>
+           <td>datetime</td>
+           <td>8</td>
+           <td>3</td>
+           <td>&nbsp;</td>
+           <td>&nbsp;</td>
+           <td>&nbsp;</td>
+           <td>是</td>
+           <td>getdate</td>
+           <td align="left">创建时间</td>
+          </tr>
+          <tr>
+           <td>7</td>
+           <td>UpdateTime</td>
+           <td>datetime</td>
+           <td>8</td>
+           <td>3</td>
+           <td>&nbsp;</td>
+           <td>&nbsp;</td>
+           <td>&nbsp;</td>
+           <td>是</td>
+           <td>&nbsp;</td>
+           <td align="left">更新时间</td>
+          </tr>
+          <tr>
+           <td>8</td>
+           <td>status</td>
+           <td>int</td>
+           <td>4</td>
+           <td>0</td>
+           <td>&nbsp;</td>
+           <td>&nbsp;</td>
+           <td>&nbsp;</td>
+           <td>是</td>
+           <td>1</td>
+           <td align="left">记录状态</td>
+          </tr>
+         </tbody>
+        </table></p>
+<h1 id="">建表语句</h1>
+<pre>
+<code>
+--病历夹表
+CREATE TABLE T_Medical_His
+(
+    id int identity(1,1),--病历夹ID
+    His_Gid nvarchar(40) default newid(),--病历夹标识
+    Doctor_ID nvarchar(64) not null, --医生ID
+    Patient_ID nvarchar(64) not null,--病人ID
+    Sickness nvarchar(100) not null,--所患疾病
+    CreateTime datetime default getdate(),--创建时间
+    UpdateTime datetime,--更新时间
+    status int default 1--记录状态
+)
+
+</code>
+</pre>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../dbdesigner/t_meeting_focus.html" class="navigation navigation-prev " aria-label="Previous page: T_Meeting_Focus学术活动关注详情表"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../dbdesigner/t_medical_hisdetail.html" class="navigation navigation-next " aria-label="Next page: T_Medical_HisDetail病历记录表"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="https://cdn.mathjax.org/mathjax/2.4-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>

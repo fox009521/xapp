@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Common/CustomAttributes
+END
+TableAttribute.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Common/CustomAttributes/TableAttribute.cs
+END
+GenerationType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Common/CustomAttributes/GenerationType.cs
+END
+IdAttribute.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Common/CustomAttributes/IdAttribute.cs
+END
+ColumnAttribute.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Common/CustomAttributes/ColumnAttribute.cs
+END

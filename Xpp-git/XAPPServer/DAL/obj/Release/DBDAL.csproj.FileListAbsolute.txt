@@ -1,0 +1,9 @@
+D:\HealthCloudServer\ServerCode\ServerCode\HealCloudServer\DAL\bin\Release\DAL.dll
+D:\HealthCloudServer\ServerCode\ServerCode\HealCloudServer\DAL\bin\Release\DAL.pdb
+D:\HealthCloudServer\ServerCode\ServerCode\HealCloudServer\DAL\bin\Release\HealthCloud.DBUtility.dll
+D:\HealthCloudServer\ServerCode\ServerCode\HealCloudServer\DAL\bin\Release\Model.dll
+D:\HealthCloudServer\ServerCode\ServerCode\HealCloudServer\DAL\bin\Release\MySql.Data.dll
+D:\HealthCloudServer\ServerCode\ServerCode\HealCloudServer\DAL\bin\Release\Model.pdb
+D:\HealthCloudServer\ServerCode\ServerCode\HealCloudServer\DAL\obj\Release\DBDAL.csprojResolveAssemblyReference.cache
+D:\HealthCloudServer\ServerCode\ServerCode\HealCloudServer\DAL\obj\Release\DAL.dll
+D:\HealthCloudServer\ServerCode\ServerCode\HealCloudServer\DAL\obj\Release\DAL.pdb

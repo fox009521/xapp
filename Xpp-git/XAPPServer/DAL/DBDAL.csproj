@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0B3C2252-1537-4710-9047-53CA4B87EA25}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HealthCloud.DBDAL</RootNamespace>
+    <AssemblyName>DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BBSDAL.cs" />
+    <Compile Include="BBSDetailDAL.cs" />
+    <Compile Include="ERRLogUploadDAL.cs" />
+    <Compile Include="EXAMIN.cs" />
+    <Compile Include="ExaminToHHT_Log.cs" />
+    <Compile Include="EXAMIN_Limit.cs" />
+    <Compile Include="Examin_Type.cs" />
+    <Compile Include="EXAMIN_USER_Limit.cs" />
+    <Compile Include="HHTGET.cs" />
+    <Compile Include="HHTRequestDAL.cs" />
+    <Compile Include="Manage_Log.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SENDINFO.cs" />
+    <Compile Include="Service_Log.cs" />
+    <Compile Include="UserGroup.cs" />
+    <Compile Include="UsersDAL.cs" />
+    <Compile Include="USERS_BAK.cs" />
+    <Compile Include="UserTokenDAL.cs" />
+    <Compile Include="Users_Type.cs" />
+    <Compile Include="UserType.cs" />
+    <Compile Include="USER_RELATION.cs" />
+    <Compile Include="VerHisDAL.cs" />
+    <Compile Include="V_NT_EXAMIN.cs" />
+    <Compile Include="V_NT_EXAMIN_SELECT.cs" />
+    <Compile Include="V_NT_SENDINFO.cs" />
+    <Compile Include="V_NT_USERS.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DBUtility\DBUtility.csproj">
+      <Project>{0988c62e-247f-471f-a183-db509c7a3839}</Project>
+      <Name>DBUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\DBModel.csproj">
+      <Project>{34623872-a801-4848-9324-eac160e19050}</Project>
+      <Name>DBModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/TOOL/easy4net/Easy4net/Common
+END
+PageResult.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/TOOL/easy4net/Easy4net/Common/PageResult.cs
+END
+ReflectionUtils.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/TOOL/easy4net/Easy4net/Common/ReflectionUtils.cs
+END
+EntityHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/TOOL/easy4net/Easy4net/Common/EntityHelper.cs
+END
+DbKeywords.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/TOOL/easy4net/Easy4net/Common/DbKeywords.cs
+END
+Map.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/TOOL/easy4net/Easy4net/Common/Map.cs
+END
+Field.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/TOOL/easy4net/Easy4net/Common/Field.cs
+END
+WhereExpression.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/TOOL/easy4net/Easy4net/Common/WhereExpression.cs
+END
+ReflectionHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/TOOL/easy4net/Easy4net/Common/ReflectionHelper.cs
+END
+DbCondition.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/TOOL/easy4net/Easy4net/Common/DbCondition.cs
+END
+ParamMap.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/TOOL/easy4net/Easy4net/Common/ParamMap.cs
+END
+TypeUtils.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/TOOL/easy4net/Easy4net/Common/TypeUtils.cs
+END
+DbEntityUtils.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/TOOL/easy4net/Easy4net/Common/DbEntityUtils.cs
+END
+DynamicCalls.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/TOOL/easy4net/Easy4net/Common/DynamicCalls.cs
+END
+TableInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/TOOL/easy4net/Easy4net/Common/TableInfo.cs
+END
+SQLBuilderHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/TOOL/easy4net/Easy4net/Common/SQLBuilderHelper.cs
+END
+IdInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/TOOL/easy4net/Easy4net/Common/IdInfo.cs
+END
+CommonUtils.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/TOOL/easy4net/Easy4net/Common/CommonUtils.cs
+END
+ColumnInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/TOOL/easy4net/Easy4net/Common/ColumnInfo.cs
+END

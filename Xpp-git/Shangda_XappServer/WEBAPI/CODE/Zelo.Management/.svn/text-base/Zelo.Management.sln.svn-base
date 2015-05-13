@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zelo.Management", "Zelo.Management\Zelo.Management.csproj", "{3A9B7B35-BF19-458C-8D5D-C5214FEC9AEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zelo.UnitTestProject", "Zelo.UnitTestProject\Zelo.UnitTestProject.csproj", "{F2E66185-3BBC-4E57-97F7-CCC1E62DBB77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zelo.ChatLibrary", "Zelo.ChatLibrary\Zelo.ChatLibrary.csproj", "{6F96E80C-074C-40C9-895A-EF7229A26922}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zelo.DBModel", "Zelo.DBModel\Zelo.DBModel.csproj", "{B0517A01-4F2D-4035-9939-44651E298B79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zelo.DBService", "Zelo.DBService\Zelo.DBService.csproj", "{16D755BE-863E-414E-8F73-5EECF1447C9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zelo.Common", "Zelo.Common\Zelo.Common.csproj", "{750F6727-EF14-4070-B07D-C84989FD2953}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A9B7B35-BF19-458C-8D5D-C5214FEC9AEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A9B7B35-BF19-458C-8D5D-C5214FEC9AEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A9B7B35-BF19-458C-8D5D-C5214FEC9AEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A9B7B35-BF19-458C-8D5D-C5214FEC9AEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2E66185-3BBC-4E57-97F7-CCC1E62DBB77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2E66185-3BBC-4E57-97F7-CCC1E62DBB77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2E66185-3BBC-4E57-97F7-CCC1E62DBB77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2E66185-3BBC-4E57-97F7-CCC1E62DBB77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F96E80C-074C-40C9-895A-EF7229A26922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F96E80C-074C-40C9-895A-EF7229A26922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F96E80C-074C-40C9-895A-EF7229A26922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F96E80C-074C-40C9-895A-EF7229A26922}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0517A01-4F2D-4035-9939-44651E298B79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0517A01-4F2D-4035-9939-44651E298B79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0517A01-4F2D-4035-9939-44651E298B79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0517A01-4F2D-4035-9939-44651E298B79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16D755BE-863E-414E-8F73-5EECF1447C9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16D755BE-863E-414E-8F73-5EECF1447C9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16D755BE-863E-414E-8F73-5EECF1447C9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16D755BE-863E-414E-8F73-5EECF1447C9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{750F6727-EF14-4070-B07D-C84989FD2953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{750F6727-EF14-4070-B07D-C84989FD2953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{750F6727-EF14-4070-B07D-C84989FD2953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{750F6727-EF14-4070-B07D-C84989FD2953}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.DBModel
+END
+GlobalEnumClass.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.DBModel/GlobalEnumClass.cs
+END
+TDoctor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.DBModel/TDoctor.cs
+END
+User.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.DBModel/User.cs
+END
+TMedicalHis.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Shangda_XappServer/!svn/ver/16/WEBAPI/CODE/Zelo.Management/Zelo.DBModel/TMedicalHis.cs
+END
+TAppUpgradeInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.DBModel/TAppUpgradeInfo.cs
+END
+TPatient.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.DBModel/TPatient.cs
+END
+TCity.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.DBModel/TCity.cs
+END
+TMedicalHisExtend.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Shangda_XappServer/!svn/ver/8/WEBAPI/CODE/Zelo.Management/Zelo.DBModel/TMedicalHisExtend.cs
+END
+TUserToken.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.DBModel/TUserToken.cs
+END
+TMedicalHisDetailPic.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Shangda_XappServer/!svn/ver/15/WEBAPI/CODE/Zelo.Management/Zelo.DBModel/TMedicalHisDetailPic.cs
+END
+TSmsValid.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.DBModel/TSmsValid.cs
+END
+THospital.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.DBModel/THospital.cs
+END
+TMedicHisDetailInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Shangda_XappServer/!svn/ver/8/WEBAPI/CODE/Zelo.Management/Zelo.DBModel/TMedicHisDetailInfo.cs
+END
+Zelo.DBModel.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.DBModel/Zelo.DBModel.csproj
+END
+TMedicalHisDetail.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Shangda_XappServer/!svn/ver/15/WEBAPI/CODE/Zelo.Management/Zelo.DBModel/TMedicalHisDetail.cs
+END
+TProvince.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.DBModel/TProvince.cs
+END

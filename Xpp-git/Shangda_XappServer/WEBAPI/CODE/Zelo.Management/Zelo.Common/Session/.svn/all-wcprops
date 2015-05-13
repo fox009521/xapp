@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Common/Session
+END
+SessionFactory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Common/Session/SessionFactory.cs
+END
+Session.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Common/Session/Session.cs
+END
+SessionThreadLocal.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Common/Session/SessionThreadLocal.cs
+END
