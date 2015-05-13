@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repositories>
+  <repository path="..\Zelo.ChatLibrary\packages.config" />
+  <repository path="..\Zelo.Management\packages.config" />
+  <repository path="..\Zelo.UnitTestProject\packages.config" />
+</repositories>

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Management/Service%20References/SmsService
+END
+SDKService.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Management/Service%20References/SmsService/SDKService.xsd
+END
+Reference.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Management/Service%20References/SmsService/Reference.cs
+END
+Reference.svcmap
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Management/Service%20References/SmsService/Reference.svcmap
+END
+configuration91.svcinfo
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Management/Service%20References/SmsService/configuration91.svcinfo
+END
+Zelo.Management.SmsService.mo.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Management/Service%20References/SmsService/Zelo.Management.SmsService.mo.datasource
+END
+SDKService.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Management/Service%20References/SmsService/SDKService.wsdl
+END
+Zelo.Management.SmsService.statusReport.datasource
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Management/Service%20References/SmsService/Zelo.Management.SmsService.statusReport.datasource
+END
+configuration.svcinfo
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Management/Service%20References/SmsService/configuration.svcinfo
+END

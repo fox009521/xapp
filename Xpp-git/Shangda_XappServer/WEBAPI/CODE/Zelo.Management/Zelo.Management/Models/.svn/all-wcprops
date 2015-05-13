@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Management/Models
+END
+DocotorModels.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Management/Models/DocotorModels.cs
+END
+BaseParams.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Management/Models/BaseParams.cs
+END
+GeoModels.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Management/Models/GeoModels.cs
+END
+Result.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Management/Models/Result.cs
+END
+UserModels.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Management/Models/UserModels.cs
+END
+CustomerDateTimeConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Management/Models/CustomerDateTimeConverter.cs
+END
+MedicalHisModels.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/Shangda_XappServer/!svn/ver/13/WEBAPI/CODE/Zelo.Management/Zelo.Management/Models/MedicalHisModels.cs
+END
+PatientModels.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Management/Models/PatientModels.cs
+END
+SystemModels.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Management/Models/SystemModels.cs
+END

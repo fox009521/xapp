@@ -1,0 +1,1373 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<style>
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px; }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
+
+a {
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
+h1 {
+  font-size: 28px;
+  color: black; }
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+li {
+  margin: 0; }
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+* {
+	-webkit-print-color-adjust: exact;
+}
+
+</style>
+<title>健康云端WEB API文档 V0.1 JSON版</title>
+
+</head>
+<body>
+<h1>健康云端WEB API文档 V0.1 JSON版</h1>
+
+<p>最后一次修订：2014.08.27 修订人：李剑明</p>
+
+<h4>基本说明</h4>
+
+<p>基本API路由协议：/api/{controller}/{action}/{id}</p>
+
+<h4>数据统一返回格式</h4>
+
+<p>WEB API默认调用接口返回统一格式内容，如下：</p>
+
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>类型</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>code</td>
+<td>整形</td>
+<td>结果类型 0 失败，1 成功，2 token过期</td>
+</tr>
+<tr>
+<td>message</td>
+<td>字符串</td>
+<td>结果消息</td>
+</tr>
+<tr>
+<td>result_data</td>
+<td>JSON对象</td>
+<td>结果数据</td>
+</tr>
+</tbody>
+</table>
+
+
+<h4>接口访问说明</h4>
+
+<p>WEB API的访问会根据HEADER请求参数来返回需要返回的相关请求内容(json或者XML)，如果想要返回参数为JSON格式，请设置HEADER信息如下：</p>
+
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Accept</td>
+<td>application/json</td>
+</tr>
+<tr>
+<td>Content-Type</td>
+<td>application/json</td>
+</tr>
+</tbody>
+</table>
+
+
+<h2>用户接口</h2>
+
+<h3>1.用户登陆</h3>
+
+<table>
+<thead>
+<tr>
+<th align="center">相关信息</th>
+<th align="center">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">访问类型</td>
+<td align="center">POST</td>
+</tr>
+<tr>
+<td align="center">访问地址</td>
+<td align="center">/api/acounts/login</td>
+</tr>
+</tbody>
+</table>
+
+
+<h4>请求参数</h4>
+
+<table>
+<thead>
+<tr>
+<th align="center">参数名称</th>
+<th align="center">是否必填</th>
+<th align="center">类型</th>
+<th align="center">说明</th>
+<th>示例数据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">user_name</td>
+<td align="center">true</td>
+<td align="center">字符串</td>
+<td align="center">用户名</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">password</td>
+<td align="center">true</td>
+<td align="center">字符串</td>
+<td align="center">密码</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">OS_ver</td>
+<td align="center">true</td>
+<td align="center">字符串</td>
+<td align="center">系统版本</td>
+<td>IOS 6.1</td>
+</tr>
+<tr>
+<td align="center">app_ver</td>
+<td align="center">true</td>
+<td align="center">字符串</td>
+<td align="center">应用版本</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">hard_info</td>
+<td align="center">true</td>
+<td align="center">字符串</td>
+<td align="center">硬件类型</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">hard_sn</td>
+<td align="center">false</td>
+<td align="center">字符串</td>
+<td align="center">硬件SN</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+<h4>返回结果示例</h4>
+
+<pre>
+<code>
+{
+    "code": 1,
+    "message": "",
+    "result_data": {
+        "token": "2a29dd98-a48c-4ccd-9fbd-0dd2d39670ae",
+        "user_id": "b0bb74e7-82a8-4fe0-ada9-f4db72d72041",
+        "update_info": {
+            "has_new_ver": true,
+            "ver_code": "1.11",
+            "ver_content": "卸载原有版本后，去http://172.30.10.21下载安装包重新安装",
+            "ver_href": "https://healthtest.naton.cn/ios/HealthCloud1.11.apk",
+            "is_force": 1
+        }
+    }
+}
+</code>
+</pre>
+
+
+<h3>2.查询用户信息</h3>
+
+<table>
+<thead>
+<tr>
+<th align="center">相关信息</th>
+<th align="center">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">访问类型</td>
+<td align="center">POST</td>
+</tr>
+<tr>
+<td align="center">访问地址</td>
+<td align="center">/api/acounts/user_info</td>
+</tr>
+</tbody>
+</table>
+
+
+<h4>请求参数</h4>
+
+<table>
+<thead>
+<tr>
+<th align="center">参数名称</th>
+<th align="center">是否必填</th>
+<th align="center">类型</th>
+<th align="center">说明</th>
+<th>示例数据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">user_id</td>
+<td align="center">true</td>
+<td align="center">字符串</td>
+<td align="center">用户ID</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">token</td>
+<td align="center">true</td>
+<td align="center">字符串</td>
+<td align="center">token</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">to_user_id</td>
+<td align="center">true</td>
+<td align="center">字符串</td>
+<td align="center">查询的用户ID</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+<h4>返回结果示例</h4>
+
+<pre>
+<code>
+{
+    "code": 1,
+    "message": "",
+    "result_data": {
+        "user_name": "jacket",
+        "mobile": "18911261253",
+        "email": "l02n20l@qq.com"
+    }
+}
+</code>
+</pre>
+
+
+<h3>3,查询家庭成员信息</h3>
+
+<h2>留言接口</h2>
+
+<h3>1，获取留言</h3>
+
+<table>
+<thead>
+<tr>
+<th align="center">相关信息</th>
+<th align="center">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">访问类型</td>
+<td align="center">POST,GET</td>
+</tr>
+<tr>
+<td align="center">访问地址</td>
+<td align="center">/api/bbs/get_bbs</td>
+</tr>
+</tbody>
+</table>
+
+
+<h4>请求参数</h4>
+
+<table>
+<thead>
+<tr>
+<th align="center">参数名称</th>
+<th align="center">是否必填</th>
+<th align="center">类型</th>
+<th align="center">说明</th>
+<th>示例数据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">user_id</td>
+<td align="center">true</td>
+<td align="center">字符串</td>
+<td align="center">用户ID</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">token</td>
+<td align="center">true</td>
+<td align="center">字符串</td>
+<td align="center">token</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">count</td>
+<td align="center">false</td>
+<td align="center">整形</td>
+<td align="center">获取的用户条数，如果为空则默认为20条</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">page</td>
+<td align="center">false</td>
+<td align="center">整形</td>
+<td align="center">获取的页数，如果为空则默认为第一页</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+<h4>返回结果示例</h4>
+
+<pre>
+<code>
+{
+    "code": 1,
+    "message": "",
+    "result_data": [
+        {
+            "gid": "dbf35a2c-a6aa-4da5-8f68-0e4179a21eae",
+            "oper_id": "c5d64551-fd2a-45f5-adb1-9969e1e721a1",
+            "content": "very good",
+            "oper_time": "2014-07-06T12:00:11",
+            "server_time": "2014-08-26T12:22:02"
+        }
+    ]
+}
+</code>
+</pre>
+
+
+<h3>2，获取留言的相关回复</h3>
+
+<table>
+<thead>
+<tr>
+<th align="center">相关信息</th>
+<th align="center">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">访问类型</td>
+<td align="center">POST,GET</td>
+</tr>
+<tr>
+<td align="center">访问地址</td>
+<td align="center">/api/bbs/get_bbs_response</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th align="center">参数名称</th>
+<th align="center">是否必填</th>
+<th align="center">类型</th>
+<th align="center">说明</th>
+<th>示例数据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">user_id</td>
+<td align="center">true</td>
+<td align="center">字符串</td>
+<td align="center">用户ID</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">token</td>
+<td align="center">true</td>
+<td align="center">字符串</td>
+<td align="center">token</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">count</td>
+<td align="center">false</td>
+<td align="center">整形</td>
+<td align="center">获取的用户条数，如果为空则默认为20条</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">page</td>
+<td align="center">false</td>
+<td align="center">整形</td>
+<td align="center">获取的页数，如果为空则默认为第一页</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+<h4>返回结果示例</h4>
+
+<pre>
+<code>
+{
+    "code": 1,
+    "message": "",
+    "result_data": [
+        {
+            "gid": "dbf35a2c-a6aa-4da5-8f68-0e4179a21eae",
+            "oper_id": "c5d64551-fd2a-45f5-adb1-9969e1e721a1",
+            "content": "very good",
+            "oper_time": "2014-07-06T12:00:11",
+            "server_time": "2014-08-26T12:22:02",
+            "bbs_id":"13425a2c-asaa-4da5-8e68-0e4279a01eae"
+        }
+    ]
+}
+</code>
+</pre>
+
+
+<h3>3，添加留言</h3>
+
+<table>
+<thead>
+<tr>
+<th align="center">相关信息</th>
+<th align="center">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">访问类型</td>
+<td align="center">POST</td>
+</tr>
+<tr>
+<td align="center">访问地址</td>
+<td align="center">/api/bbs/add_bbs</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th align="center">参数名称</th>
+<th align="center">是否必填</th>
+<th align="center">类型</th>
+<th align="center">说明</th>
+<th>示例数据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">user_id</td>
+<td align="center">true</td>
+<td align="center">字符串</td>
+<td align="center">用户ID</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">token</td>
+<td align="center">true</td>
+<td align="center">字符串</td>
+<td align="center">token</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">content</td>
+<td align="center">true</td>
+<td align="center">字符串</td>
+<td align="center">留言内容</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">oper_time</td>
+<td align="center">true</td>
+<td align="center">时间</td>
+<td align="center">操作时间</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+<h3>4，添加回复</h3>
+
+<table>
+<thead>
+<tr>
+<th align="center">相关信息</th>
+<th align="center">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">访问类型</td>
+<td align="center">POST</td>
+</tr>
+<tr>
+<td align="center">访问地址</td>
+<td align="center">/api/bbs/add_response</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th align="center">参数名称</th>
+<th align="center">是否必填</th>
+<th align="center">类型</th>
+<th align="center">说明</th>
+<th>示例数据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">user_id</td>
+<td align="center">true</td>
+<td align="center">字符串</td>
+<td align="center">用户ID</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">token</td>
+<td align="center">true</td>
+<td align="center">字符串</td>
+<td align="center">token</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">content</td>
+<td align="center">true</td>
+<td align="center">字符串</td>
+<td align="center">留言内容</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">oper_time</td>
+<td align="center">true</td>
+<td align="center">时间</td>
+<td align="center">操作时间</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">bbs_id</td>
+<td align="center">true</td>
+<td align="center">字符串</td>
+<td align="center">如果为空，则默认为留言，如果指定BBS_ID则为回复</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+<h3>5，删除留言</h3>
+
+<table>
+<thead>
+<tr>
+<th align="center">相关信息</th>
+<th align="center">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">访问类型</td>
+<td align="center">POST</td>
+</tr>
+<tr>
+<td align="center">访问地址</td>
+<td align="center">/api/bbs/delete_bbs</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th align="center">参数名称</th>
+<th align="center">是否必填</th>
+<th align="center">类型</th>
+<th align="center">说明</th>
+<th>示例数据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">user_id</td>
+<td align="center">true</td>
+<td align="center">字符串</td>
+<td align="center">用户ID</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">token</td>
+<td align="center">true</td>
+<td align="center">字符串</td>
+<td align="center">token</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">bbs_id</td>
+<td align="center">false</td>
+<td align="center">字符串</td>
+<td align="center">需要删除的留言ID</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+<h3>6，删除回复</h3>
+
+<table>
+<thead>
+<tr>
+<th align="center">相关信息</th>
+<th align="center">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">访问类型</td>
+<td align="center">POST</td>
+</tr>
+<tr>
+<td align="center">访问地址</td>
+<td align="center">/api/bbs/delete_response</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th align="center">参数名称</th>
+<th align="center">是否必填</th>
+<th align="center">类型</th>
+<th align="center">说明</th>
+<th>示例数据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">user_id</td>
+<td align="center">true</td>
+<td align="center">字符串</td>
+<td align="center">用户ID</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">token</td>
+<td align="center">true</td>
+<td align="center">字符串</td>
+<td align="center">token</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">bbs_id</td>
+<td align="center">false</td>
+<td align="center">字符串</td>
+<td align="center">需要删除的留言ID</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+<h2>测试数据接口</h2>
+
+<h3>1，添加血压数据</h3>
+
+<table>
+<thead>
+<tr>
+<th align="center">相关信息</th>
+<th align="center">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">访问类型</td>
+<td align="center">POST</td>
+</tr>
+<tr>
+<td align="center">访问地址</td>
+<td align="center">/api/test/add_bp</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th align="center">参数名称</th>
+<th align="center">是否必填</th>
+<th align="center">类型</th>
+<th align="center">说明</th>
+<th>示例数据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">user_id</td>
+<td align="center">true</td>
+<td align="center">字符串</td>
+<td align="center">用户ID</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">token</td>
+<td align="center">true</td>
+<td align="center">字符串</td>
+<td align="center">token</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">sbp</td>
+<td align="center">true</td>
+<td align="center">整形</td>
+<td align="center">收缩压</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">dbp</td>
+<td align="center">true</td>
+<td align="center">整形</td>
+<td align="center">舒张压</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">hr</td>
+<td align="center">true</td>
+<td align="center">整形</td>
+<td align="center">心率</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">oper_time</td>
+<td align="center">true</td>
+<td align="center">时间</td>
+<td align="center">操作时间</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">to_user_id</td>
+<td align="center">true</td>
+<td align="center">整形</td>
+<td align="center">该数据对应的用户ID</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+<h4>返回结果示例</h4>
+
+<pre>
+<code>
+{
+    "code": 1,
+    "message": "添加血压测量成功",
+    "result_data": null
+}
+</code>
+</pre>
+
+
+<h3>2，获取血压数据</h3>
+
+<table>
+<thead>
+<tr>
+<th align="center">相关信息</th>
+<th align="center">内容</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">访问类型</td>
+<td align="center">POST,GET</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">访问地址</td>
+<td align="center">/api/test/get_bp</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th align="center">参数名称</th>
+<th align="center">是否必填</th>
+<th align="center">类型</th>
+<th align="center">说明</th>
+<th>示例数据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">user_id</td>
+<td align="center">true</td>
+<td align="center">字符串</td>
+<td align="center">用户ID</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">token</td>
+<td align="center">true</td>
+<td align="center">字符串</td>
+<td align="center">token</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">count</td>
+<td align="center">false</td>
+<td align="center">整形</td>
+<td align="center">获取的用户条数，如果为空则默认为20条</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">page</td>
+<td align="center">false</td>
+<td align="center">整形</td>
+<td align="center">获取的页数，如果为空则默认为第一页</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">date_from</td>
+<td align="center">false</td>
+<td align="center">时间</td>
+<td align="center">查询数据起始日期</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">date_to</td>
+<td align="center">false</td>
+<td align="center">时间</td>
+<td align="center">查询数据结束日期</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+<h4>返回结果示例</h4>
+
+<pre>
+<code>
+{
+    "code": 1,
+    "message": "获取血压数据成功",
+    "result_data": [
+        {
+            "sbp": 100,
+            "dbp": 90,
+            "hr": 100,
+            "oper_date": "2014-08-27T15:44:02"
+        }
+    ]
+}
+</code>
+</pre>
+
+
+<h2>趋势数据接口</h2>
+
+<h3>1，获取趋势数据</h3>
+
+<table>
+<thead>
+<tr>
+<th align="center">相关信息</th>
+<th align="center">内容</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">访问类型</td>
+<td align="center">POST,GET</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">访问地址</td>
+<td align="center">/api/trend/get_trend_quick</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th align="center">参数名称</th>
+<th align="center">是否必填</th>
+<th align="center">类型</th>
+<th align="center">说明</th>
+<th>示例数据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">user_id</td>
+<td align="center">true</td>
+<td align="center">字符串</td>
+<td align="center">用户ID</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">token</td>
+<td align="center">true</td>
+<td align="center">字符串</td>
+<td align="center">token</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">count</td>
+<td align="center">false</td>
+<td align="center">整形</td>
+<td align="center">获取的用户条数，如果为空则默认为20条</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">page</td>
+<td align="center">false</td>
+<td align="center">整形</td>
+<td align="center">获取的页数，如果为空则默认为第一页</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">date_from</td>
+<td align="center">false</td>
+<td align="center">时间</td>
+<td align="center">查询数据起始日期</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">date_to</td>
+<td align="center">false</td>
+<td align="center">时间</td>
+<td align="center">查询数据结束日期</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+<h4>返回结果示例</h4>
+
+<pre>
+<code>
+{
+    "code": 1,
+    "message": "成功获取图表",
+    "result_data": [
+        {
+            "type": "SBP",
+            "data1": "123.04457254902,123.178549019608,123.402352941176,123.718533333333,124.129639215686,124.638525490196,125.247741176471,125.958815686274,126.768180392157,127.665129411765,128.612956862745,129.568635294118,130.489035294118,131.33408627451,132.074015686274,132.682109803921,133.131654901961",
+            "data2": "HfL%2B%2F8F4%2F%2F%2Fgyv%2F%2FnuL%2F%2Fzv5%2F%2F%2FaogAADSoBAM8OAQDN7wAAgPr%2F%2F0AD%2F%2F%2Bj3v7%2FYLv%2B%2F%2Fbl%2Fv8fZf%2F%2FvSsAAMJTAQA%3D"
+        },
+        {
+            "type": "DBP",
+            "data1": "85.4769019607843,85.4769019607843,85.4769019607843,85.4769019607843,85.4769019607843,85.4769019607843,85.4769019607843,85.4769019607843,85.4769019607843,85.4769019607843,85.4769019607843,85.4769019607843,85.4769019607843,85.4769019607843,85.4769019607843,85.4769019607843,85.4769019607843",
+            "data2": "XSL%2F%2F%2BUg%2F%2F99Jv%2F%2FkTX%2F%2F2JQ%2F%2F%2Bsd%2F%2F%2Ftaj%2F%2F%2FDf%2F%2F%2FQGQAAbFIAAHKEAABKqwAAwcYAALrXAAAb3wAAWd4AADDZAAA%3D"
+        },
+        {
+            "type": "HR",
+            "data1": "75.6999176470588,76.0817882352941,76.7433294117647,77.6212117647059,78.5100470588235,79.2095529411765,79.6698235294118,79.8785882352941,79.8234117647059,79.5194470588235,79.0908823529412,78.6647058823529,78.2699058823529,77.9110941176471,77.5926352941177,77.3190588235294,77.0948941176471",
+            "data2": "bmsAAL%2BFAAC3bAAA78v%2F%2F6Iq%2F%2F%2F9WP%2F%2F5%2BH%2F%2F%2B%2FrAABGswEApc%2F%2F%2F%2B3x%2Ff8wOP7%2FfqX%2B%2F6gG%2F%2F8Ghf%2F%2FA3QAAPLWAQA%3D"
+        }
+    ]
+}
+</code>
+</pre>
+
+
+<h2>应用接口</h2>
+
+<h3>1，应用检测升级</h3>
+
+<table>
+<thead>
+<tr>
+<th align="center">相关信息</th>
+<th align="center">内容</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">访问类型</td>
+<td align="center">POST</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">安卓访问地址</td>
+<td align="center">/api/acounts/update_android</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">IOS访问地址</td>
+<td align="center">/api/acounts/update_ios</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th align="center">参数名称</th>
+<th align="center">是否必填</th>
+<th align="center">类型</th>
+<th align="center">说明</th>
+<th>示例数据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">app_ver</td>
+<td align="center">true</td>
+<td align="center">字符串</td>
+<td align="center">应用版本号</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">os_ver</td>
+<td align="center">true</td>
+<td align="center">字符串</td>
+<td align="center">系统版本号</td>
+<td>IOS 6.1</td>
+</tr>
+</tbody>
+</table>
+
+
+<h4>返回示例数据</h4>
+
+<pre>
+<code>
+{
+    "code": 1,
+    "message": "",
+    "result_data": {
+        "has_new_ver": true,
+        "ver_code": "1.11",
+        "ver_content": "卸载原有版本后，去http://172.30.10.21下载安装包重新安装",
+        "ver_href": "https://healthtest.naton.cn/ios/HealthCloud1.11.apk",
+        "is_force": 1
+    }
+}
+</code>
+</pre>
+
+
+
+</body>
+</html>

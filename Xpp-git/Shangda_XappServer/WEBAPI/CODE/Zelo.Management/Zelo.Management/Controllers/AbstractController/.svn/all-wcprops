@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Management/Controllers/AbstractController
+END
+IUserController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Management/Controllers/AbstractController/IUserController.cs
+END
+BaseController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Management/Controllers/AbstractController/BaseController.cs
+END
+AbstractUserController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Management/Controllers/AbstractController/AbstractUserController.cs
+END

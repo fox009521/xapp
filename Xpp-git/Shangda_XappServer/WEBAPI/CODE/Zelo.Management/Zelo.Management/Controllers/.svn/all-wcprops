@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Management/Controllers
+END
+HomeController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Management/Controllers/HomeController.cs
+END
+DoctorController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Shangda_XappServer/!svn/ver/4/WEBAPI/CODE/Zelo.Management/Zelo.Management/Controllers/DoctorController.cs
+END
+MedicalHisController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Shangda_XappServer/!svn/ver/12/WEBAPI/CODE/Zelo.Management/Zelo.Management/Controllers/MedicalHisController.cs
+END
+PatientController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Management/Controllers/PatientController.cs
+END
+SystemController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Shangda_XappServer/!svn/ver/1/WEBAPI/CODE/Zelo.Management/Zelo.Management/Controllers/SystemController.cs
+END
